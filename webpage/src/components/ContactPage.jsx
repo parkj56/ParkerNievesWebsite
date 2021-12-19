@@ -1,6 +1,6 @@
 import React from "react"
  
-function ContactPage(props) {
+function ContactPage() {
   return (
     <div>
       <h1>Contact Page</h1>

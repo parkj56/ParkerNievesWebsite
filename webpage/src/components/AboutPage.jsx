@@ -1,8 +1,8 @@
 import React from "react"
  
-function AboutPage(props) {
+function AboutPage() {
   return (
-    <div>
+    <div classname= "about">
       <h1>About Page</h1>
     </div>
   )

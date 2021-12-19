@@ -1,3 +1,13 @@
-.body {
-  background-image: url('verticalCodeImg.gif');
+body {
+  background-image: url('./components/Images/blueCode.gif');
+  background-size: cover;
+  background-size: contain 100px;
+  background-repeat: no-repeat;
+  
 }
+
+/* .app{
+  background-color: white;
+  border-radius: 50%;
+} */
+

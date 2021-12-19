@@ -1,6 +1,6 @@
 import React from "react"
  
-function HirePage(props) {
+function HirePage() {
   return (
     <div>
       <h1>Hire Page</h1>

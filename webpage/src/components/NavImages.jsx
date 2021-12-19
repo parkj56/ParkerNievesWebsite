@@ -1,57 +1,62 @@
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import React, { Component } from 'react';
+import './NavImages.css'
+import aboutImg from './Images/pinkhat.jpg';
+// import AboutPage from "./AboutPage";
+// import renderPages from '../App';
 
-function NavImages(){
-    return(
-        <div>
-            <h1>Home</h1>
-            <Link to="/">
-                <Image src="" className="" />
-            </Link>
-    
+
+
+
+
+class NavImages extends Component {
+    render(){
+        return(
+
             <div>
-                <h1>About Me</h1>
-                <Link to="/About">
-                    <Image src="" className="" />
-                </Link>
-                    
+                <NavLink to="/"  >
+                <img classname= 'aboutImg' src = {aboutImg} alt="About Me"/>
+                </NavLink>
+                
                 <div>
-                    <h1>Projects</h1>
-                    <Link to="/Projects">
-                        <Image src="" className="" />
-                    </Link>
-                        
+                    <NavLink to="/About" classname= 'aboutLink'>
+                        <img classname= 'aboutImg' src = {aboutImg} alt="About Me"/>
+                    </NavLink>
+                    
                     <div>
-                        <h1>Education</h1>
-                        <Link to="/Education">
-                            <Image src="" className="" />
-                        </Link>
+                        <NavLink to="/Projects">
+                        <img classname= 'aboutImg' src = {aboutImg} alt="About Me"/>
+                        </NavLink>
                         
                         <div>
-                            <h1>Contact</h1>
-                            <Link to="/ContcatMe">
-                                <Image src="" className="" />
-                            </Link>
-                            
-                            <div>
-                                <h1>Media</h1>
-                                <Link to="/Media">
-                                    <Image src="" className="" />
-                                </Link>
-                                
-                                <div>
-                                    <h1>HireMe</h1>
-                                    <Link to="/HireMe">
-                                        <Image src="" className="" />
-                                    </Link>
+                            <NavLink to="/Education">
+                            <img classname= 'aboutImg' src = {aboutImg} alt="About Me"/>
+                            </NavLink>
 
+                            <div>
+                                <NavLink to="/ContcatMe">
+                                <img classname= 'aboutImg' src = {aboutImg} alt="About Me"/>
+                                </NavLink>
+
+                                <div>
+                                    <NavLink to="/Media">
+                                    <img classname= 'aboutImg' src = {aboutImg} alt="About Me"/>
+                                    </NavLink>
+
+                                    <div>
+                                        <NavLink to="/HireMe">
+                                        <img classname= 'aboutImg' src = {aboutImg} alt="About Me"/>
+                                        </NavLink>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default NavImages;
