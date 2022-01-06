@@ -6,7 +6,7 @@ import AboutPage from './AboutPage';
 import MediaPage from './MediaPage';
 import EducationPage from './EducationPage';
 import {Routes,Route,} from "react-router-dom";
-import NavImages from './NavImages';
+import NavImages from './NavBar';
 import React, { Component } from 'react';
 
 function renderHomePage(){

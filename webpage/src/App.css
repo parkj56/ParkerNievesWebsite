@@ -1,7 +1,6 @@
 body {
   background-image: url('./components/Images/blueCode.gif');
   background-size: cover;
-  background-size: contain 100px;
   background-repeat: no-repeat;
   
 }
