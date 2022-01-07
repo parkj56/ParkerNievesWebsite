@@ -1,41 +1,62 @@
-img {
-    width: 400px; /* width of container */
-    height: 245px; /* height of container */
-    object-fit: cover;
-    border: 50px solid rgb(255, 255, 255);
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    
-  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+}
+
+body{
+  background-image: url('./Images/blueCode.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   
-  /* .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
+}
+
+.navigation
+{
+  position:relative;
+  width: 350px; 
+  height: 100px;
+  padding-bottom: 53rem;
   
-  .container:hover .overlay {
-    opacity: 1;
-  }
+}
+
+.navigation ul
+{
+  display: flex;
+}
+
+.navigation ul li 
+{
   
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  } */
+  list-style: none;
+  width: 70px;
+  height: 70px;
+  color: white;
+  
+}
+
+.navigation ul li a
+{
+  position:relative;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.navigation ul li .icon
+{
+  position: relative;
+  line-height: 30px;
+  transition: 0.5s;
+  font-size: 50px;
+}

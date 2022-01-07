@@ -15,41 +15,42 @@ class NavBar extends Component {
 
             <div class='navigation'>
                <ul>
-                <li>
-                    <NavLink to="/"  >
-                        <ion-icon name="home"></ion-icon> Home
-                    </NavLink>
-                </li>
-                <div>
-                    <NavLink to="/About" classname= 'aboutLink'>
-                        <ion-icon name="accessibility"></ion-icon> About Me
-                    </NavLink>
-                    
-                    <div>
-                        <NavLink to="/Projects">
-                            <ion-icon name="document-text"></ion-icon> Projects
-                        </NavLink>
-                        
-                        <div>
-                            <NavLink to="/Education">
-                                <ion-icon name="school"></ion-icon> Education
+                    <li class='list'>
+                        <span class= 'icon'>
+                            <NavLink to="/"  >
+                                <ion-icon name="home"></ion-icon>
                             </NavLink>
+                        </span>
+                        <span class= 'text'> Home </span>
+                    </li>
+                
+                     <li class='list'>
+                        <span class= 'icon'>
+                            <NavLink to="/AboutPage"  >
+                                <ion-icon name="accessibility"></ion-icon>
+                            </NavLink>
+                        </span>
+                        <span class= 'text'> About</span>
+                    </li>
 
-                            <div>
-                                <NavLink to="/Media">
-                                    <ion-icon name="camera-reverse"></ion-icon> Media
-                                </NavLink>
+                    <li class='list'>
+                        <span class= 'icon'>
+                            <NavLink to="/Media"  >
+                                <ion-icon name="camera-reverse"></ion-icon>
+                            </NavLink>
+                        </span>
+                        <span class= 'text'> Media </span>
+                    </li>
 
-                                <div>
-                                    <NavLink to="/HireMe">
-                                        <ion-icon name="briefcase"></ion-icon> Hire Me!
-                                    </NavLink>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <li class='list'>
+                        <span class= 'icon'>
+                            <NavLink to="/HirePage"  >
+                                <ion-icon name="briefcase"></ion-icon>
+                            </NavLink>
+                        </span>
+                        <span class= 'text'> Hire Me! </span>
+                    </li>
+                </ul>    
             </div>
         )
     }
