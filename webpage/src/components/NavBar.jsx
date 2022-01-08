@@ -1,18 +1,11 @@
 import {NavLink} from 'react-router-dom';
 import React, { Component } from 'react';
 import './NavBar.css'
-// import aboutImg from './Images/pinkhat.jpg';
-// import AboutPage from "./AboutPage";
-// import renderPages from '../App';
-
-
-
 
 
 class NavBar extends Component {
     render(){
         return(
-
             <div class='navigation'>
                <ul>
                     <li class='list'>
@@ -26,7 +19,7 @@ class NavBar extends Component {
                 
                      <li class='list'>
                         <span class= 'icon'>
-                            <NavLink to="/AboutPage"  >
+                            <NavLink to="/About"  >
                                 <ion-icon name="accessibility"></ion-icon>
                             </NavLink>
                         </span>
@@ -44,7 +37,7 @@ class NavBar extends Component {
 
                     <li class='list'>
                         <span class= 'icon'>
-                            <NavLink to="/HirePage"  >
+                            <NavLink to="/HireMe"  >
                                 <ion-icon name="briefcase"></ion-icon>
                             </NavLink>
                         </span>

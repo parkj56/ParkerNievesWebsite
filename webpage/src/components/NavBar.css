@@ -15,11 +15,14 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  
 }
+
+
+
 
 .navigation
 {
+  
   position:relative;
   width: 350px; 
   height: 100px;
@@ -36,11 +39,13 @@ body{
 {
   
   list-style: none;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   color: white;
   
 }
+
+
 
 .navigation ul li a
 {
@@ -49,9 +54,23 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
+  
 }
+
+.navigation ul li a:hover
+{
+  position:relative;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(255, 213, 233);
+  text-align: center;
+  
+}
+
 
 .navigation ul li .icon
 {
@@ -59,4 +78,19 @@ body{
   line-height: 30px;
   transition: 0.5s;
   font-size: 50px;
+  white-space: nowrap;
+  
 }
+
+.navigation ul li .icon:hover
+{
+  position: relative;
+  line-height: 30px;
+  transition: 0.5s;
+  font-size: 70px;
+  
+}
+
+
+
+

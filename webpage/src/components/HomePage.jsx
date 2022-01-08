@@ -1,30 +1,52 @@
 // import app from '../App'
-import HirePage from './HirePage'; 
-import AboutPage from './AboutPage';
-import MediaPage from './MediaPage';
-import {Routes,Route,} from "react-router-dom";
-import NavImages from './NavBar';
-import React, { Component } from 'react';
+import './NavBar.css'
+import NavBar from "./NavBar";
+import { NavLink } from "react-router-dom";
 
-function renderHomePage(){
-  <HomePage></HomePage>
-}
 
-export default class HomePage extends Component{
-  render(){
-    return (
+function HomePage(){
+    return(
+      <div class='navigation'>
+          <ul>
+              <li class='list'>
+                  <span class= 'icon'>
+                      <NavLink to="/"  >
+                          <ion-icon name="home"></ion-icon>
+                      </NavLink>
+                  </span>
+                  <span class= 'text'> Home </span>
+              </li>
+          
+                <li class='list'>
+                  <span class= 'icon'>
+                      <NavLink to="/AboutPage"  >
+                          <ion-icon name="accessibility"></ion-icon>
+                      </NavLink>
+                  </span>
+                  <span class= 'text'> About</span>
+              </li>
+
+              <li class='list'>
+                  <span class= 'icon'>
+                      <NavLink to="/Media"  >
+                          <ion-icon name="camera-reverse"></ion-icon>
+                      </NavLink>
+                  </span>
+                  <span class= 'text'> Media </span>
+              </li>
+
+              <li class='list'>
+                  <span class= 'icon'>
+                      <NavLink to="/HirePage"  >
+                        <ion-icon name="chatbox-ellipses"></ion-icon>
+                      </NavLink>
+                  </span>
+                  <span class= 'text'> Contact </span>
+              </li>
+          </ul>    
+      </div>
       
-      <NavImages>
-        <Routes>
-        <Route exact path="/" exact component={renderHomePage} />
-        <Route exact path="/HireMe" component={HirePage} />
-        <Route exact path="/About" component={AboutPage} />
-        <Route exact path="/Media" component={MediaPage} />
-        </Routes>
-      </NavImages>
-        
-    );
-  }
+    )
 }
  
-
+export default HomePage;
