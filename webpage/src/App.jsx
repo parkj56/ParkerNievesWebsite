@@ -13,7 +13,7 @@ import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import MediaPage from './components/MediaPage';
 import {Switch, Route} from 'react-router-dom'
-import React, { Component } from 'react';
+import React from 'react';
 import NavBar from './components/NavBar';
 
 

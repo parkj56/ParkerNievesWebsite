@@ -1,7 +1,7 @@
 import React from "react"
 import './About.css'
 import me from './Images/me1.jpg'
-import grad from './Images/grad.JPG'
+
 
 function AboutPage() {
     return(
