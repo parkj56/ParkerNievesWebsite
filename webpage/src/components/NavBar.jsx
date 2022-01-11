@@ -6,42 +6,42 @@ import './NavBar.css'
 class NavBar extends Component {
     render(){
         return(
-            <div class='navigation'>
+            <div className='navigation'>
                <ul>
-                    <li class='list'>
-                        <span class= 'icon'>
+                    <li className='list'>
+                        <span className= 'icon'>
                             <NavLink to="/"  >
                                 <ion-icon name="home"></ion-icon>
                             </NavLink>
                         </span>
-                        <span class= 'text'> Home </span>
+                        <span className= 'text'> Home </span>
                     </li>
                 
-                     <li class='list'>
-                        <span class= 'icon'>
+                     <li className='list'>
+                        <span className= 'icon'>
                             <NavLink to="/About"  >
                                 <ion-icon name="accessibility"></ion-icon>
                             </NavLink>
                         </span>
-                        <span class= 'text'> About</span>
+                        <span className= 'text'> About</span>
                     </li>
 
-                    <li class='list'>
-                        <span class= 'icon'>
+                    <li className='list'>
+                        <span className= 'icon'>
                             <NavLink to="/Media"  >
                                 <ion-icon name="camera-reverse"></ion-icon>
                             </NavLink>
                         </span>
-                        <span class= 'text'> Media </span>
+                        <span className= 'text'> Media </span>
                     </li>
 
-                    <li class='list'>
-                        <span class= 'icon'>
+                    <li className='list'>
+                        <span className= 'icon'>
                             <NavLink to="/HireMe"  >
                                 <ion-icon name="briefcase"></ion-icon>
                             </NavLink>
                         </span>
-                        <span class= 'text'> Hire Me! </span>
+                        <span className= 'text'> Hire Me! </span>
                     </li>
                 </ul>    
             </div>

@@ -14,16 +14,18 @@ import AboutPage from './components/AboutPage';
 import MediaPage from './components/MediaPage';
 import {Switch, Route} from 'react-router-dom'
 import React, { Component } from 'react';
+import NavBar from './components/NavBar';
 
 
 function App() {   
     return (
+        <><NavBar />
         <Switch>
-        <Route exact path="/" exact component={HomePage} />
-        <Route exact path="/HirePage" component={HirePage} />
-        <Route exact path="/AboutPage" component={AboutPage} />
-        <Route exact path="/Media" component={MediaPage} />
-        </Switch>  
+            <Route exact path="/" exact component={HomePage} />
+            <Route exact path="/HireMe" component={HirePage} />
+            <Route exact path="/About" component={AboutPage} />
+            <Route exact path="/Media" component={MediaPage} />
+        </Switch></>  
     );
 }
 

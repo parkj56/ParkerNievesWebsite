@@ -1,47 +1,36 @@
 import React from "react"
 import './NavBar.css'
+import './Media.css'
 import { NavLink } from "react-router-dom";
+import NavBar from "./NavBar";
+
 
 function MediaPage() {
   return(
-    <div class='navigation'>
-        <ul>
-            <li class='list'>
-                <span class= 'icon'>
-                    <NavLink to="/"  >
-                        <ion-icon name="home"></ion-icon>
-                    </NavLink>
-                </span>
-                <span class= 'text'> Home </span>
-            </li>
-        
-              <li class='list'>
-                <span class= 'icon'>
-                    <NavLink to="/AboutPage"  >
-                        <ion-icon name="accessibility"></ion-icon>
-                    </NavLink>
-                </span>
-                <span class= 'text'> About</span>
-            </li>
+    <div class='media'>
+      <ul>
+        <li class='list'>
+          <span class='icon'>
+            <a href="https://github.com/parkj56"><ion-icon name="logo-github"></ion-icon></a>
+          </span>
+          <span class='text'> Projects and Source Code </span>
+        </li>
 
-            <li class='list'>
-                <span class= 'icon'>
-                    <NavLink to="/Media"  >
-                        <ion-icon name="camera-reverse"></ion-icon>
-                    </NavLink>
-                </span>
-                <span class= 'text'> Media </span>
-            </li>
+        <li class='list'>
+          <span class='icon'>
+            <a href="https://www.linkedin.com/in/parker-nieves-129593208/"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </span>
+          <span class='text'> Connect with me on LinkedIn! </span>
+        </li>
 
-            <li class='list'>
-                <span class= 'icon'>
-                    <NavLink to="/HirePage"  >
-                      <ion-icon name="chatbox-ellipses"></ion-icon>
-                    </NavLink>
-                </span>
-                <span class= 'text'> Contact </span>
-            </li>
-        </ul>    
+
+        <li class='list'>
+          <span class='icon'>
+            <a href="https://join.slack.com/t/slack-vzc9755/shared_invite/zt-11ctjgb3o-lIgBKgYnpGqcosv7FBZVZA"><ion-icon name="logo-slack"></ion-icon></a>
+          </span>
+          <span class='text'> Join my workspace! </span>
+        </li>
+      </ul>
     </div>
     
   )

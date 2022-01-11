@@ -1,49 +1,39 @@
 // import app from '../App'
-import './NavBar.css'
-import NavBar from "./NavBar";
-import { NavLink } from "react-router-dom";
+import './NavBar.css';
+import './Home.css';
+import image from './Images/download.png'
+import C from './Images/csharp2.png'
+
 
 
 function HomePage(){
     return(
-      <div class='navigation'>
-          <ul>
-              <li class='list'>
-                  <span class= 'icon'>
-                      <NavLink to="/"  >
-                          <ion-icon name="home"></ion-icon>
-                      </NavLink>
-                  </span>
-                  <span class= 'text'> Home </span>
-              </li>
-          
-                <li class='list'>
-                  <span class= 'icon'>
-                      <NavLink to="/AboutPage"  >
-                          <ion-icon name="accessibility"></ion-icon>
-                      </NavLink>
-                  </span>
-                  <span class= 'text'> About</span>
-              </li>
-
-              <li class='list'>
-                  <span class= 'icon'>
-                      <NavLink to="/Media"  >
-                          <ion-icon name="camera-reverse"></ion-icon>
-                      </NavLink>
-                  </span>
-                  <span class= 'text'> Media </span>
-              </li>
-
-              <li class='list'>
-                  <span class= 'icon'>
-                      <NavLink to="/HirePage"  >
-                        <ion-icon name="chatbox-ellipses"></ion-icon>
-                      </NavLink>
-                  </span>
-                  <span class= 'text'> Contact </span>
-              </li>
-          </ul>    
+      <div className='welcome'>
+          <h1>Parker Nieves</h1>
+            <div className='title'>
+                <h2>Full-Stack Software Developer</h2>
+                    <div className='pixle'>
+                        <img src={image} alt="pixelMe" />
+                            <div className='c'>
+                                <img src={C} alt="C#" />
+                                    <div className='icons'>
+                                        <ul>
+                                            <li className='list'>
+                                                <ion-icon name="logo-javascript"></ion-icon>
+                                            </li>
+                                            
+                                            <li className='list'>
+                                                <ion-icon name="logo-react"></ion-icon>
+                                            </li>
+                                            
+                                            <li className='list'>
+                                                <ion-icon name="logo-python"></ion-icon>
+                                            </li>
+                                        </ul>
+                                    </div>    
+                            </div>
+                    </div>
+            </div>
       </div>
       
     )
