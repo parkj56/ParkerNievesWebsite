@@ -9,7 +9,7 @@ import C from './Images/csharp2.png'
 function HomePage(){
     return(
       <div className='welcome'>
-          <h1>Parker Nieves</h1>
+          <h1 className='h1'>Parker Nieves</h1>
             <div className='title'>
                 <h2>Full-Stack Software Developer</h2>
                     <div className='pixel'>
