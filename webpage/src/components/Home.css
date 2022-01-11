@@ -21,12 +21,13 @@
     
 }
 
-img{
+.pixel img{
     position: relative;
     left: 600px;
     top: -300px;
     width: 500px;
     height: 500px;
+    border-radius: 10%;
 }
 
 .icons ul{

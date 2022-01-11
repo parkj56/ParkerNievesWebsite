@@ -12,7 +12,7 @@ function HomePage(){
           <h1>Parker Nieves</h1>
             <div className='title'>
                 <h2>Full-Stack Software Developer</h2>
-                    <div className='pixle'>
+                    <div className='pixel'>
                         <img src={image} alt="pixelMe" />
                             <div className='c'>
                                 <img src={C} alt="C#" />
@@ -23,7 +23,7 @@ function HomePage(){
                                             </li>
                                             
                                             <li className='list'>
-                                                <ion-icon name="logo-react"></ion-icon>
+                                                <ion-icon name="logo-html5"></ion-icon>
                                             </li>
                                             
                                             <li className='list'>

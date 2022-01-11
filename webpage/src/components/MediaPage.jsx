@@ -1,8 +1,5 @@
 import React from "react"
-import './NavBar.css'
 import './Media.css'
-import { NavLink } from "react-router-dom";
-import NavBar from "./NavBar";
 
 
 function MediaPage() {

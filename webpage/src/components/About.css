@@ -1,15 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
-h1 {
+.about{
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
+    
 }
 
 p{
     font-family: 'Fjalla One', sans-serif;
     text-align: center;
     font-size: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    font-weight:900;
+    margin-right: 50px;
+   
     
+}
+
+
+.textImg img{
+    float: left;
+    margin-left: 50px;
+    width:280px;
+    height:400px;
+    border-radius: 50%;
+
+   
 }
