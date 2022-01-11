@@ -23,7 +23,7 @@ function HirePage() {
         <div>
             <div className="container">
                 <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
+                    <div className="col">
                         <div className="col-8 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
                         </div>
