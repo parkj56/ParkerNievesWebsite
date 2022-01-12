@@ -10,7 +10,7 @@
 }
 
 body{
-  background-image:linear-gradient(rgba(128, 128, 136, 0.7),rgba(126, 126, 247, 0.7)),url('./Images/blueCode.gif');
+  background-image:linear-gradient(rgba(153, 153, 184, 0.7),rgba(24, 24, 202, 0.7)),url('./Images/blueCode.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -24,7 +24,7 @@ body{
 
 @media only screen and (max-width: 767px) {
   body{
-  background-image:linear-gradient(rgba(128, 128, 136, 0.7),rgba(126, 126, 247, 0.7)),url('./Images/blueCode.gif');
+    background-image:linear-gradient(rgba(153, 153, 184, 0.7),rgba(24, 24, 202, 0.7)),url('./Images/blueCode.gif');
   }
 }
 
@@ -44,8 +44,7 @@ body{
   
   display: flex;
   font-size: 190%;
-  
-  padding-right: 1em;
+  padding-left: 1em;
   
 }
 
@@ -53,14 +52,10 @@ body{
 {
   
   list-style: none;
-  width: 500px;
+  width: 100px;
   height: 100px;
   color: black;
   position: relative;
-  
-  
-  
-  
   
 }
 
@@ -77,11 +72,6 @@ body{
   color: black;
   text-align: center;
   font-size: 60%;
-  
-  
-  
-  
-  
   
 }
 
@@ -105,11 +95,9 @@ body{
   transition: 0.5s;
   font-size:360%;
   text-align: center;
- 
-  
-  
   
 }
+
 
 
 
