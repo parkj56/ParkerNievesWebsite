@@ -145,6 +145,6 @@ span{
 }
 
 @media only screen and (max-width: 450px) {
-  .list{ margin-bottom: -95px; }
+  .list{ margin-bottom: -90px; }
 }
 

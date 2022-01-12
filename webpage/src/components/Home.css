@@ -12,11 +12,13 @@
 
 h1{
     text-shadow: 4px 4px rgb(198, 198, 201);
+    margin-bottom: -20px;
 
 }
 
 h2{
     text-shadow: 4px 4px rgb(198, 198, 201);
+    margin-bottom: -20px;
 }
 
 .title{

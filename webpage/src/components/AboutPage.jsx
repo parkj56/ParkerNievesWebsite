@@ -9,7 +9,7 @@ function AboutPage() {
             <h1 className='about'>About Me</h1>
             <p className='textImg'> <img src={me} alt='Parker'></img>
                 Hello and welcome to my website. I am more than happy to tell you about myself and my coding journey. 
-                I graduated from Homestead High school June 2020, and had some prior knowledge of code from an elective course. 
+                I graduated from Homestead High school, and had some prior knowledge of code from an elective course. 
                 I was introduced to Python and HTML in that course, and had many hardships 
                 understanding concepts that seemed inconceivable at the time. I told myself I’d never want a career writing code after taking the class. 
                 Thankfully, I didn’t hold myself to that promise . A passion for hardware, and fascination with software assumed my will to try again. 
