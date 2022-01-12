@@ -99,7 +99,7 @@ body{
   position: relative;
   line-height: 30px;
   transition: 0.5s;
-  font-size:300%;
+  font-size:360%;
   text-align: center;
   
   
@@ -113,8 +113,12 @@ body{
   vertical-align: top;
   line-height: 30px;
   transition: 0.5s;
-  font-size:150px;
+  font-size:170px;
   
+}
+
+span{
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -124,5 +128,18 @@ body{
   }
 }
 
+@media only screen and (max-width: 400px) {
+  span{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navigation ul li .icon:hover
+  {
+  font-size:120px;
+  
+  }
+}
 
 
