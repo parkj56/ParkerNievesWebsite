@@ -14,25 +14,27 @@ function HomePage(){
                 <h2>Full-Stack Software Developer</h2>
                     <div className='pixel'>
                         <img src={image} alt="pixelMe" />
-                            <div className='c'>
-                                <img src={C} alt="C#" />
-                                    <div className='icons'>
-                                        <ul>
-                                            <li className='list'>
-                                                <ion-icon name="logo-javascript"></ion-icon>
-                                            </li>
-                                            
-                                            <li className='list'>
-                                                <ion-icon name="logo-html5"></ion-icon>
-                                            </li>
-                                            
-                                            <li className='list'>
-                                                <ion-icon name="logo-python"></ion-icon>
-                                            </li>
-                                        </ul>
-                                    </div>    
-                            </div>
-                    </div>
+                            <div className='icons'>
+                                <ul>
+                                    <li className='list'>
+                                        <ion-icon name="logo-javascript"></ion-icon>
+                                    </li>
+                                    
+                                    <li className='list'>
+                                        <ion-icon name="logo-html5"></ion-icon>
+                                    </li>
+                                    
+                                    <li className='list'>
+                                        <ion-icon name="logo-python"></ion-icon>
+                                    </li>
+                                    
+                                    <li className='list'>
+                                        <i class="devicon-csharp-plain"></i>
+                                    </li>
+                            
+                                </ul>
+                            </div>    
+                </div>
             </div>
       </div>
       

@@ -6,8 +6,6 @@ div.container form {
     position: relative;
     top: 100px;
     
-    
-    
 }
 
 input{
@@ -26,4 +24,26 @@ textarea{
     font-family: 'Fjalla One', sans-serif;
 }
 
+@media only screen and (max-width: 760px) {
+    input{
+        height: 2em;
+        width: 10em;
+        
+    }
+  }
 
+  @media only screen and (max-width: 760px) {
+    textarea{
+        height: 15em;
+        width: 10em;
+        
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    textarea{
+        height: 15em;
+        width: 10em;
+        
+    }
+  }

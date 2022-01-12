@@ -39,10 +39,11 @@ body{
 
 .navigation ul
 {
-  padding-top: 1.5rem;
+  
   display: flex;
   font-size: 190%;
   align-items: center;
+  padding-right: 1em;
   
 }
 
@@ -72,7 +73,8 @@ body{
   flex-direction: column;
   color: black;
   text-align: center;
-  font-size: 80%;
+  font-size: 60%;
+  
   
   
   
@@ -111,11 +113,16 @@ body{
   vertical-align: top;
   line-height: 30px;
   transition: 0.5s;
-  font-size: 100px;
+  font-size:150px;
   
 }
 
-
+@media only screen and (max-width: 400px) {
+  .navigation{
+    font-size:60%;
+  
+  }
+}
 
 
 

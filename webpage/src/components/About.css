@@ -33,3 +33,28 @@ p{
 
    
 }
+
+@media only screen and (max-width: 760px) {
+    p{
+        font-size: 1.2em;
+        font-weight:900;
+        margin-right: 2rem;
+        
+    }
+  }
+
+@media only screen and (max-width: 760px) {
+    .textImg img{
+        width: 280px;
+        height:400px;
+        padding-left: 1em;
+    
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .about{
+        font-size: 50px;
+    
+    }
+}

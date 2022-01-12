@@ -1,37 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 .welcome {
+    padding-top: -2vw;
     font-family: 'Fjalla One', sans-serif;
     padding-left: 1.5rem;
-    font-size:3em;
-    text-shadow: 4px 4px rgb(198, 198, 201);
+    font-size: 2em;
     text-align: center;
 
     
 }
 
+h1{
+    text-shadow: 4px 4px rgb(198, 198, 201);
+
+}
+
+h2{
+    text-shadow: 4px 4px rgb(198, 198, 201);
+}
 
 .title{
-    
-    text-shadow: 4px 4px rgb(198, 198, 201);
+    position: relative;
+    top: -2vw;
     font-family: 'Fjalla One', sans-serif;
     
     
+    
 }
-
-
 
 
 .pixel img{
-   width: 30%;
-   height: auto;
-   border-radius: 10%;
-   position: sticky;
-   left: 2em;
+    
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+    position: sticky;
+    left: -2em;
   
    
 }
-
 
 
 .icons .list{
@@ -39,16 +46,26 @@
     list-style-type: none;
     font-size:2em;
     position: relative;
-    top: -1.7em;
-
-    
+    top: -.5em;
 
 }
 
-.c img{
-    width:90px;
-    height: 90px;
-    position: relative;
-    left: 4.3em;
+@media only screen and (max-width: 760px) {
+    .pixel img{
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
+        padding-right: 2em;
     
+    }
+  }
+
+@media only screen and (max-width: 760px) {
+    .welcome{
+        padding-top: .2em;
+        font-size: 1.2em;
+    
+    }
 }
+
+
